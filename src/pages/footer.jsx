@@ -19,7 +19,7 @@ const Footer = () => {
             {" "}
             <span className="fab fa-linkedin-in"></span>{" "}
           </a>
-          <a target="_blank" href="https://github.com" title="Github">
+          <a target="_blank" href="https://github.com/kiranankani" title="Github">
             {" "}
             <span className="fab fa-github"></span>{" "}
           </a>
