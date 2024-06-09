@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import Resume from "./resume";
-import resume from './Kiran_Resume_070624.pdf'
+import resume from './resumes/Kiran_Resume_090624.pdf'
 
 const Header = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
-import resume from "./Kiran_Resume_070624.pdf"
+import resume from "./resumes/Kiran_Resume_090624.pdf"
 const Resume = () => {
   return (
     <div className="dropdown">
