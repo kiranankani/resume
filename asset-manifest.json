@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/resume/static/js/main.da871d7a.chunk.js",
-    "main.js.map": "/resume/static/js/main.da871d7a.chunk.js.map",
+    "main.js": "/resume/static/js/main.7c81baa8.chunk.js",
+    "main.js.map": "/resume/static/js/main.7c81baa8.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.d2c02b6b.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.d2c02b6b.js.map",
     "static/css/2.ee1a8bf4.chunk.css": "/resume/static/css/2.ee1a8bf4.chunk.css",
@@ -12,13 +12,13 @@
     "index.html": "/resume/index.html",
     "static/css/2.ee1a8bf4.chunk.css.map": "/resume/static/css/2.ee1a8bf4.chunk.css.map",
     "static/js/2.ff6d39ea.chunk.js.LICENSE.txt": "/resume/static/js/2.ff6d39ea.chunk.js.LICENSE.txt",
-    "static/media/Kiran_Resume_070624.436cf0b3.pdf": "/resume/static/media/Kiran_Resume_070624.436cf0b3.pdf",
+    "static/media/Kiran_Resume_090624.b7b79a29.pdf": "/resume/static/media/Kiran_Resume_090624.b7b79a29.pdf",
     "static/media/indianicLogo.95fed1fa.svg": "/resume/static/media/indianicLogo.95fed1fa.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d2c02b6b.js",
     "static/css/2.ee1a8bf4.chunk.css",
     "static/js/2.ff6d39ea.chunk.js",
-    "static/js/main.da871d7a.chunk.js"
+    "static/js/main.7c81baa8.chunk.js"
   ]
 }
