@@ -1,0 +1,87 @@
+$break-xs: 420px;
+$break-s: 570px;
+$break-m: 790px;
+$break-l: 920px;
+
+$font-size-xs: 35px;
+$font-size-s: 40px;
+$font-size-m: 55px;
+$font-size-l: 70px;
+$font-size-xl: 85px;
+
+$spacing-s: 20px;
+$spacing-m: $spacing-s*2;
+$spacing-l: $spacing-m*2;
+
+$background-color: #DCE1E9;
+$text-color: #363732;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  padding: $spacing-l $spacing-s;
+
+  @media screen and (min-width: $break-s) {
+    padding: $spacing-l $spacing-m;
+  }
+}
+
+.typewriter {
+  max-width: 100%;
+  line-height: 1.4;
+  font: {
+    family: 'Lekton';
+    size: $font-size-xs;
+  }
+
+  @media screen and (min-width: $break-xs) {
+    font-size: $font-size-s;
+  }
+
+  @media screen and (min-width: $break-s) {
+    font-size: $font-size-m;
+  }
+
+  @media screen and (min-width: $break-m) {
+    font-size: $font-size-l;
+  }
+
+  @media screen and (min-width: $break-l) {
+    font-size: $font-size-xl;
+  }
+}
+
+.sentence:not(.last-sentence) {
+  display: block;
+}
+
+.last-sentence {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.dynamic-text {
+  position: relative;
+
+  &:after {
+    content: '|';
+    position: absolute;
+    left: calc(100% - 10px);
+  }
+
+  &.fade {
+    &:after {
+      animation: fade 1s infinite ease-in-out;
+    }
+  }
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
