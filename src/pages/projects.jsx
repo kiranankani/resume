@@ -1,12 +1,21 @@
 import React, { useState } from "react";
 import indianic from "./indianicLogo.svg";
 import torinit from "./tor-svg.png"
+import GlobalLogic from "./GlobalLogic-Logo.png"
+
 
 const Projects = () => {
   const [projects] = useState([
     {
+      role: "Associate Consultant, Engineering",
+      date: "Sept 2024 - Till date",
+      alt: "GlobalLogic",
+      src: GlobalLogic,
+      text: "GlobalLogic - Hyderabad",
+    },
+    {
       role: "Sr. Software Engineer",
-      date: "Jul 2021 - Till date",
+      date: "Jul 2021 - Sept 2024",
       alt: "LTIMindtree",
       src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/LTIMindtree_Logo.svg/2560px-LTIMindtree_Logo.svg.png",
       text: "LTIMindtree - Hyderabad",
