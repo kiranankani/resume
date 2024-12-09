@@ -21,6 +21,7 @@ const Resume = () => {
           className="mask-outer"
           href={resume}
           download
+          rel="noopener noreferrer"
         >
           <span className="mask-lnk" download>
             Download CV

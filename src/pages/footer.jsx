@@ -11,7 +11,7 @@ const Footer = () => {
           target="_blank"> saikiran.ankani@gmail.com</a>
         </span>
         <span>
-          T: <a href="tel:+917659009114">+91 76590 09***</a>
+          T: <a href="tel:+917659009114" rel="noopener noreferrer">+91 76590 09***</a>
         </span>
       </div>
       <div className="social-media">

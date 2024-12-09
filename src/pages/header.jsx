@@ -12,6 +12,7 @@ const Header = () => {
             className="logo mask-outer"
             href={resume}
             download
+            rel="noopener noreferrer"
           >
             <span className="mask-lnk">
               Kiran <span>Ankani</span>
